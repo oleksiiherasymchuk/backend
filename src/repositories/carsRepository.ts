@@ -11,8 +11,6 @@ const cars = [
   { id: 10, company: "Volkswagen", model: "Golf" },
 ];
 
-// update 
-
 export const carsRepository = {
   findCarById(id: number) {
     let car = cars.find((c) => c.id === id);
