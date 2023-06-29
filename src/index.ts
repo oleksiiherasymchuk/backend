@@ -1,6 +1,5 @@
-import express, { Request, Response } from "express";
+import express from "express";
 import bodyParser from "body-parser";
-import { v1 } from "uuid";
 import { carsRouter } from "./router/carsRouter";
 
 const app = express();
